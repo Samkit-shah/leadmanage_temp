@@ -1,0 +1,1 @@
+import{g as r,p as o}from"./index-BBusEcbR.js";const c=async()=>{try{const{products:e,msg:t}=await r("product");return Promise.resolve({products:e,msg:t})}catch{return Promise.reject("Something went wrong!")}},n=async e=>{try{const{msg:t}=await o("product",e);return Promise.resolve({msg:t})}catch{return Promise.reject("Something went wrong!")}};export{n as c,c as g};
